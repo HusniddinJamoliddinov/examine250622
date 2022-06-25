@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #F1F5F8;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+body main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+body main .site-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+body main .site-logo .title {
+  color: #102A42;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0;
+}
+body main .site-logo .underline {
+  width: 100px;
+  height: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #48A5E7;
+}
+body main .boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 35px;
+}
+body main .boxes .box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px 50px;
+}
+body main .boxes .box .img-box {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body main .boxes .box .img-box .user-img {
+  width: 100%;
+  height: auto;
+}
+body main .boxes .box .username {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #48A5E7;
+  text-transform: capitalize;
+}
+body main .boxes .box .user-link {
+  background-color: #48A5E7;
+  color: #F1F5F8;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body main .footer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+body main .footer .prew {
+  font-size: 35px;
+  font-weight: 700;
+  color: #102A42;
+  border: none;
+}
+body main .footer .next {
+  font-size: 35px;
+  font-weight: 700;
+  color: #102A42;
+  border: none;
+}
+body main .footer .btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+body main .footer .btn-group .btn {
+  width: 50px;
+  height: 50px;
+  background-color: #4698d3;
+  color: #F1F5F8;
+  border: none;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.active {
+  background-color: #102A42 !important;
+}
